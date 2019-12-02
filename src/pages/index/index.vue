@@ -37,10 +37,10 @@ export default {
     return {
       title_name: "强烈推荐",
       grids: [
-        {title:"酒店客栈",image:"/static/images/1.png"},
-        {title:"大理美食",image:"/static/images/2.png"},
-        {title:"休闲娱乐",image:"/static/images/3.png"},
-        {title:"旅游攻略",image:"/static/images/4.png"}
+        {title:"酒店客栈",image:"cloud://soft-76d6a3.736f-soft-76d6a3/1.png"},
+        {title:"大理美食",image:"cloud://soft-76d6a3.736f-soft-76d6a3/2.png"},
+        {title:"休闲娱乐",image:"cloud://soft-76d6a3.736f-soft-76d6a3/3.png"},
+        {title:"旅游攻略",image:"cloud://soft-76d6a3.736f-soft-76d6a3/4.png"}
       ],
       top: [
         {name:"大理喜洲油粑粑",address:"大理爱情海喜洲店",image:"/static/images/8.jpg",remark:"大理的风味小吃，有甜咸两种口味，外皮香酥，内在松软，物美价廉"},
@@ -49,9 +49,9 @@ export default {
         {name:"大理清真乳扇",address:"大理清真伊味轩",image:"/static/images/9.jpg",remark:"牛奶做成扇子卖，它是一种奶酪，美味可口"}
       ],
        imgUrls: [
-        "/static/images/5.jpg",
-        "/static/images/6.jpg",
-        "/static/images/7.jpg"
+        "cloud://soft-76d6a3.736f-soft-76d6a3/5.jpg",
+        "cloud://soft-76d6a3.736f-soft-76d6a3/6.jpg",
+        "cloud://soft-76d6a3.736f-soft-76d6a3/7.jpg"
       ],
       indicatorDots: false,
       autoplay: false,
