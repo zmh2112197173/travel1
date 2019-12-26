@@ -1,13 +1,14 @@
 {
   "pages": [
     "pages/index/main",
+    "pages/list/main",
     "pages/map/main",
     "pages/mine/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "云南大理旅游攻略",
+    "navigationBarTitleText": "云南大理旅游论坛",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {

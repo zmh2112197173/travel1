@@ -1,5 +1,5 @@
 {
-    "navigationBarTitleText": "云南大理旅游攻略",
+    "navigationBarTitleText": "云南大理旅游论坛",
     "usingComponents": {
         "i-grid": "../../../static/dist/grid/index",
         "i-grid-item": "../../../static/dist/grid-item/index",

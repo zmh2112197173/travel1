@@ -43,10 +43,10 @@ export default {
         {title:"旅游攻略",image:"cloud://soft-76d6a3.736f-soft-76d6a3/4.png"}
       ],
       top: [
-        {name:"大理喜洲油粑粑",address:"大理爱情海喜洲店",image:"/static/images/8.jpg",remark:"大理的风味小吃，有甜咸两种口味，外皮香酥，内在松软，物美价廉"},
-        {name:"舒适大床房",address:"大理古城东门",image:"/static/images/10.jpg",remark:"环境十分好！房子整体以白族框架为主，装修带有简约欧式味道"},
-        {name:"大理苍山",address:"大理白族自治州云岭山脉南端",image:"/static/images/5.jpg",remark:"山色苍翠，国家级风景名胜区，是大理风花雪四大名景之最"},
-        {name:"大理清真乳扇",address:"大理清真伊味轩",image:"/static/images/9.jpg",remark:"牛奶做成扇子卖，它是一种奶酪，美味可口"}
+        {name:"大理喜洲油粑粑",address:"大理爱情海喜洲店",image:"cloud://soft-76d6a3.736f-soft-76d6a3/8.jpg",remark:"大理的风味小吃，有甜咸两种口味，外皮香酥，内在松软，物美价廉"},
+        {name:"舒适大床房",address:"大理古城东门",image:"cloud://soft-76d6a3.736f-soft-76d6a3/10.jpg",remark:"环境十分好！房子整体以白族框架为主，装修带有简约欧式味道"},
+        {name:"大理苍山",address:"大理白族自治州云岭山脉南端",image:"cloud://soft-76d6a3.736f-soft-76d6a3/5.jpg",remark:"山色苍翠，国家级风景名胜区，是大理风花雪四大名景之最"},
+        {name:"大理清真乳扇",address:"大理清真伊味轩",image:"cloud://soft-76d6a3.736f-soft-76d6a3/9.jpg",remark:"牛奶做成扇子卖，它是一种奶酪，美味可口"}
       ],
        imgUrls: [
         "cloud://soft-76d6a3.736f-soft-76d6a3/5.jpg",
