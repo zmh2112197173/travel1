@@ -5,26 +5,32 @@
       :autoplay="autoplay"
       :interval="interval"
       :duration="duration"
+      style="height:200px"
     >
-    <block v-for="img in imgUrls" :key="img">
+    <block v-for="item in imgUrls" :key="item">
       <swiper-item>
-        <image :src="img" style="width:100%;"/>
+        <image :src="item" style="width:100%;height:100%"/>
       </swiper-item>
     </block>
-    </swiper>
-    <i-grid i-class="no-border">
-      <i-grid-item @click="goType(grid)" v-for="grid in grids" :key="grid" i-class="no-border">
-          <i-grid-icon>
-              <image :src="grid.image" />
-          </i-grid-icon>
-          <i-grid-label>{{grid.title}}</i-grid-label>
-      </i-grid-item>
-    </i-grid>
-    <i-panel :title="title_name">
+  </swiper>
+  <i-grid i-class="no-border">
+    <i-grid-item @click="goList(item.url)" i-class="no-border" v-for="item in grids" :key="item">
+      <i-grid-icon>
+        <image :src="item.img" />
+      </i-grid-icon>
+      <i-grid-label>{{item.type}}</i-grid-label>
+    </i-grid-item>
+  </i-grid>
+  <i-panel title="强烈推荐"> 
     <view style="padding: 15px;">
-      <i-card v-for="item in top" :key="item" i-class="split" :extra="item.name" :thumb="item.image">
-        <view slot="content">{{item.remark}}</view>
-        <view slot="footer">{{item.address}}</view>
+      <i-card @click="goType(item.type)" i-class="split" v-for="item in recommand" :key="item" :extra="item.name" :thumb="item.img">
+        <view slot="content">推荐理由：{{item.remark}}</view>
+        <view slot="footer" >
+          <span>地址：{{item.address}}</span>
+          <i-icon type="share" size="18" style="float:right"/>
+          <i-icon type="praise" size="18" style="float:right" />
+          <i-icon type="collection" size="18" style="float:right" />
+        </view>
       </i-card>
     </view>
   </i-panel>
@@ -32,39 +38,40 @@
 </template>
 
 <script>
+import card from '@/components/card'
+import top from '@/data/top.json'
+
 export default {
   data () {
     return {
-      title_name: "强烈推荐",
       grids: [
-        {title:"酒店客栈",image:"cloud://soft-76d6a3.736f-soft-76d6a3/1.png"},
-        {title:"大理美食",image:"cloud://soft-76d6a3.736f-soft-76d6a3/2.png"},
-        {title:"休闲娱乐",image:"cloud://soft-76d6a3.736f-soft-76d6a3/3.png"},
-        {title:"旅游攻略",image:"cloud://soft-76d6a3.736f-soft-76d6a3/4.png"}
+        {type:"酒店客栈",img:"cloud://soft-76d6a3.736f-soft-76d6a3/1.png","url":'../list/main?type=1'},
+        {type:"大理美食",img:"cloud://soft-76d6a3.736f-soft-76d6a3/2.png","url":'../list/main?type=2'},
+        {type:"休闲娱乐",img:"cloud://soft-76d6a3.736f-soft-76d6a3/3.png","url":'../list/main?type=3'}
       ],
-      top: [
-        {name:"大理喜洲油粑粑",address:"大理爱情海喜洲店",image:"cloud://soft-76d6a3.736f-soft-76d6a3/8.jpg",remark:"大理的风味小吃，有甜咸两种口味，外皮香酥，内在松软，物美价廉"},
-        {name:"舒适大床房",address:"大理古城东门",image:"cloud://soft-76d6a3.736f-soft-76d6a3/10.jpg",remark:"环境十分好！房子整体以白族框架为主，装修带有简约欧式味道"},
-        {name:"大理苍山",address:"大理白族自治州云岭山脉南端",image:"cloud://soft-76d6a3.736f-soft-76d6a3/5.jpg",remark:"山色苍翠，国家级风景名胜区，是大理风花雪四大名景之最"},
-        {name:"大理清真乳扇",address:"大理清真伊味轩",image:"cloud://soft-76d6a3.736f-soft-76d6a3/9.jpg",remark:"牛奶做成扇子卖，它是一种奶酪，美味可口"}
-      ],
-       imgUrls: [
+      imgUrls: [
         "cloud://soft-76d6a3.736f-soft-76d6a3/5.jpg",
         "cloud://soft-76d6a3.736f-soft-76d6a3/6.jpg",
         "cloud://soft-76d6a3.736f-soft-76d6a3/7.jpg"
       ],
-      indicatorDots: false,
-      autoplay: false,
+      indicatorDots: true,
+      autoplay: true,
       interval: 5000,
-      duration: 1000
+      duration: 1000,
+      recommand: top,
     }
+  },
+  components: {
+    card
   },
 
 
   methods: {
-    goType(type){
-      console.log(type)
-      let url = '../list/main?type=' + type.title
+    goList (url) {
+      mpvue.navigateTo({ url })
+    },
+    goType (type) {
+      let url = '../list/main?type=' + type
       mpvue.navigateTo({ url })
     }
   },

@@ -1,0 +1,6 @@
+[
+  {"id":1,"name":"木有酒吧","address":"大理人民路古城麦当劳80米","img":"cloud://soft-76d6a3.736f-soft-76d6a3/16.jpg","type":3,"remark":"酒吧气氛很好，玩的很开心！","latitude":25.67033115,"longitude":100.1657955},
+  {"id":2,"name":"洱海公园","address":"大理市下关镇洱河南路1号","img":"cloud://soft-76d6a3.736f-soft-76d6a3/18.jpg","type":3,"remark":"风景很优美，空气特别好！近距离感受大自然","latitude":25.603340761430988,"longitude":100.2486461395595},
+  {"id":3,"name":"宝小姐BAR","address":"大理大理古城人民路下段","img":"cloud://soft-76d6a3.736f-soft-76d6a3/17.jpg","type":3,"remark":"里面的小哥哥唱歌很好听！","latitude":25.68033023,"longitude":100.199657476},
+  {"id":4,"name":"大理苍山","address":"大理云岭山脉南端","img":"cloud://soft-76d6a3.736f-soft-76d6a3/5.jpg","type":3,"remark":"山色苍翠，国家级风景名胜区，是大理风花雪四大名景之最","latitude":25.65906762247733,"longitude":100.09708197415354}
+]

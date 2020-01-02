@@ -1,0 +1,6 @@
+[
+  {"id":1,"name":"大理喜洲油粑粑","address":"大理爱情海喜洲店","img":"cloud://soft-76d6a3.736f-soft-76d6a3/8.jpg","type":1,"remark":"大理的风味小吃，有甜咸两种口味，外皮香酥，内在松软，物美价廉","latitude":25.622872,"longitude":100.218192},
+  {"id":2,"name":"砂锅鱼","address":"天龙阁白族庭院食府","img":"cloud://soft-76d6a3.736f-soft-76d6a3/14.jpg","type":1,"remark":"鱼味鲜美，香气扑鼻，真的是回味无穷！","latitude":25.6033913,"longitude":100.26657612},
+  {"id":3,"name":"大理酸菜鱼","address":"胖小二酸汤鱼","img":"cloud://soft-76d6a3.736f-soft-76d6a3/15.jpg","type":1,"remark":"味道鲜美，毫无油腻之感。具有强筋健胃、改善食欲的功效哦！","latitude":25.6093964,"longitude":100.26957698},
+  {"id":4,"name":"大理清真乳扇","address":"大理清真伊味轩","img":"cloud://soft-76d6a3.736f-soft-76d6a3/9.jpg","type":1,"remark":"牛奶做成扇子卖，它是一种奶酪，美味可口","latitude":25.6922945,"longitude":100.4219345}
+]
