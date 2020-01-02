@@ -46,8 +46,8 @@ export default {
   data () {
     return {
       grids: [
-        {type:"酒店客栈",img:"/static/images/1.png","url":'../list/main?type=1'},
-        {type:"大理美食",img:"/static/images/2.png","url":'../list/main?type=2'},
+        {type:"大理美食",img:"/static/images/1.png","url":'../list/main?type=1'},
+        {type:"酒店客栈",img:"/static/images/2.png","url":'../list/main?type=2'},
         {type:"休闲娱乐",img:"/static/images/3.png","url":'../list/main?type=3'},
         {type:"旅游攻略",img:"/static/images/4.png","url":'../list/main?type=4'}
       ],
