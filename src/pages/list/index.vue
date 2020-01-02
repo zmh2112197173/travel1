@@ -1,8 +1,13 @@
 <template>
   <div>
-    <i-card v-for="item in list" :key="item" i-class="split" :extra="item.name" :thumb="item.image">
+    <i-card v-for="item in list" :key="item" i-class="split" :extra="item.name" :thumb="item.img">
       <view slot="content">{{item.remark}}</view>
-      <view slot="footer">{{item.address}}</view>
+      <view slot="footer">
+        <span>地址:{{item.address}}</span>
+        <i-icon type="share" size="20" style="float:right"/>
+        <i-icon type="praise" size="20" style="float:right" />
+        <i-icon type="collection" size="20" style="float:right" />
+      </view>
     </i-card>
   </div>
 </template>
@@ -15,9 +20,9 @@ export default {
   }
 },
 onLoad (option){
-    this.list = require('@/data/' + option.type + '.json')
-    console.log(this.list)
-  },
+  this.list = require('@/data/' + option.type + '.json')
+  console.log(this.list)
+},
 methods: {
 },
 created () {

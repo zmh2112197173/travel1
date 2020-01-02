@@ -11,7 +11,7 @@
       <i-input :value="address" @change="changeAddress($event)" title="详细地址" placeholder="请输入详细地址" maxlength="30" />
       <i-input :value="reason" @change="changeReason($event)" title="推荐理由" placeholder="请输入推荐理由" maxlength="50" />
     </i-panel>
-    <i-button @click="handleClick" type="warning" size="default">我要推荐</i-button>
+    <i-button @click="handleClick" type="info" size="default">我要推荐</i-button>
     <view class="tips">云南大理旅游者专用小程序，如果你发现大理有好吃的、好玩的、好看的，请分享给我们！！！</view>
   </div>
 </template>
@@ -82,6 +82,6 @@ export default {
 .tips {
   padding: 20pt;
   font-size: 10pt;
-  color:darkorange;
+  color:black;
 }
 </style>

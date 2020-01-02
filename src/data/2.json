@@ -1,6 +1,6 @@
 [
-  {"id":1,"name":"双廊苍雪海月客栈","address":"双廊镇岛依旁村227号","img":"cloud://soft-76d6a3.736f-soft-76d6a3/11.jpg","type":2,"remark":"海景特别好，坐在床上就可以看洱海的日落美景","latitude":25.600620,"longitude":100.250457},
-  {"id":2,"name":"舒适大床房","address":"大理古城东门","img":"cloud://soft-76d6a3.736f-soft-76d6a3/10.jpg","type":2,"remark":"环境十分好！房子整体以白族框架为主，装修带有简约欧式味道","latitude":25.604111,"longitude":100.269912},
-  {"id":3,"name":"无若精品主题客栈","address":"大理市大理镇东玉街17号","img":"cloud://soft-76d6a3.736f-soft-76d6a3/12.jpg","type":2,"remark":"位于古城最热闹街道旁边，闹中取静，客栈卫生棒棒哒！","latitude":25.59134184,"longitude":100.248716},
-  {"id":4,"name":"大理洱海海景大床房","address":"大理海东镇文笔村","img":"cloud://soft-76d6a3.736f-soft-76d6a3/13.jpg","type":2,"remark":"距离洱海30米，从房间可近观洱海，远观苍山，视野开阔","latitude":25.599230,"longitude":100.247515}
+    {"id":1,"name":"双廊苍雪海月客栈","address":"双廊镇岛依旁村227号","img":"cloud://soft-76d6a3.736f-soft-76d6a3/11.jpg","type":2,"remark":"海景特别好，坐在床上就可以看洱海的日落美景","latitude":25.600620,"longitude":100.250457},
+    {"id":2,"name":"舒适大床房","address":"大理古城东门","img":"cloud://soft-76d6a3.736f-soft-76d6a3/10.jpg","type":2,"remark":"环境十分好！房子整体以白族框架为主，装修带有简约欧式味道","latitude":25.604111,"longitude":100.269912},
+    {"id":3,"name":"无若精品主题客栈","address":"大理市大理镇东玉街17号","img":"cloud://soft-76d6a3.736f-soft-76d6a3/12.jpg","type":2,"remark":"位于古城最热闹街道旁边，闹中取静，客栈卫生棒棒哒！","latitude":25.59134184,"longitude":100.248716},
+    {"id":4,"name":"大理洱海海景大床房","address":"大理海东镇文笔村","img":"cloud://soft-76d6a3.736f-soft-76d6a3/13.jpg","type":2,"remark":"距离洱海30米，从房间可近观洱海，远观苍山，视野开阔","latitude":25.599230,"longitude":100.247515}
 ]
