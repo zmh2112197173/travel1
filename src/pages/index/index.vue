@@ -23,7 +23,7 @@
   </i-grid>
   <i-panel>
     <i-notice-bar>强烈推荐</i-notice-bar>
-      <view style="padding: 10px;">
+    <view style="padding: 10px;">
       <i-card @click="goType(item.type)" i-class="split" v-for="item in recommand" :key="item" :extra="item.name" :thumb="item.img">
         <view slot="content">推荐理由：{{item.remark}}</view>
         <view slot="footer" >
@@ -66,7 +66,6 @@ export default {
   components: {
     card
   },
-
 
   methods: {
     goList (url) {

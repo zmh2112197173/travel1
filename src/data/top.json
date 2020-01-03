@@ -1,6 +1,6 @@
 [
-  {"id":1,"name":"大理喜洲油粑粑","address":"大理爱情海喜洲店","img":"cloud://soft-76d6a3.736f-soft-76d6a3/8.jpg","type":1,"remark":"大理的风味小吃，有甜咸两种口味，外皮香酥，内在松软，物美价廉","latitude":25.622872,"longitude":100.218192},
-  {"id":2,"name":"舒适大床房","address":"大理古城东门","img":"cloud://soft-76d6a3.736f-soft-76d6a3/10.jpg","type":2,"remark":"环境十分好！房子整体以白族框架为主，装修带有简约欧式味道","latitude":25.604111,"longitude":100.269912},
-  {"id":3,"name":"大理苍山","address":"大理云岭山脉南端","img":"cloud://soft-76d6a3.736f-soft-76d6a3/5.jpg","type":3,"remark":"山色苍翠，国家级风景名胜区，是大理风花雪四大名景之最","latitude":25.65906762247733,"longitude":100.09708197415354},
-  {"id":4,"name":"大理清真乳扇","address":"大理清真伊味轩","img":"cloud://soft-76d6a3.736f-soft-76d6a3/9.jpg","type":1,"remark":"牛奶做成扇子卖，它是一种奶酪，美味可口","latitude":25.6922945,"longitude":100.4219345}
+    {"id":1,"name":"大理喜洲油粑粑","address":"大理爱情海喜洲店","img":"cloud://soft-76d6a3.736f-soft-76d6a3/8.jpg","type":1,"remark":"大理的风味小吃，有甜咸两种口味，外皮香酥，内在松软，物美价廉","latitude":25.622872,"longitude":100.218192},
+    {"id":2,"name":"舒适大床房","address":"大理古城东门","img":"cloud://soft-76d6a3.736f-soft-76d6a3/10.jpg","type":2,"remark":"环境十分好！房子整体以白族框架为主，装修带有简约欧式味道","latitude":25.604111,"longitude":100.269912},
+    {"id":3,"name":"大理苍山","address":"大理云岭山脉南端","img":"cloud://soft-76d6a3.736f-soft-76d6a3/5.jpg","type":3,"remark":"山色苍翠，国家级风景名胜区，是大理风花雪四大名景之最","latitude":25.65906762247733,"longitude":100.09708197415354},
+    {"id":4,"name":"大理清真乳扇","address":"大理清真伊味轩","img":"cloud://soft-76d6a3.736f-soft-76d6a3/9.jpg","type":1,"remark":"牛奶做成扇子卖，它是一种奶酪，美味可口","latitude":25.6922945,"longitude":100.4219345}
 ]
